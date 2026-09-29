@@ -1,0 +1,45 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+article {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+.botao-detalhes {
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao-detalhes:hover {
+    background-color: #6d28d9;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status-analise {
+    color: #fbbf24;
+}
+
+.status-concluido {
+    color: #22c55e;
+}
