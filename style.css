@@ -14,8 +14,9 @@ article {
     background-color: #1e1e1e;
     border: 1px solid #333333;
     padding: 20px;
-    margin: 20px;
     border-radius: 12px;
+    flex: 1;
+    min-width: 300px;
 }
 
 .botao-detalhes {
@@ -42,4 +43,12 @@ article {
 
 .status-concluido {
     color: #22c55e;
+}
+
+.lista-os {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
